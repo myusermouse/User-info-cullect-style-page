@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Lucky Lottery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Project -->
+ <div class="container">
+    <div class="content">
+        <h1 class="head-lucky">Lucky Lottery</h1>
+          
+          <div class="circle-casino">
+              <div class="circle">
+                  <img src="/image/trigger.png" class="trigger-img">
+                <div class="circle-anim">
+                  <img src="/image/circle.png" class="circle-img">
+               </div>
+              </div>
+          </div>
+          
+            <p class="head-info"><i>"আমরা একটা লটারির আয়োজন করেছি। আপনি যদি অংশগ্রহণ করতে চান তাহলে অবশ্যই আপনাকে নিচের ফরমটি পূরন করতে হবে।"</i></p> 
+        
+        <form action="">
+                <div class="info-in">
+                <for="name"><input type="text" name="email" id="name" class="email name" required placeholder="Name"></label>
+                <label for="number"><input type="number" name="number" id="number" class="number" required placeholder="Phone"></label>
+                <for="email"><input type="email" name="email" id="email" class="email" required placeholder="Email"></label>
+                <label for="other-social-media"><input type="url" name="other-social-media" id="other-social-media" class="other-social-media" required placeholder="Other Social Media link"></label>
+                <label for="user-message"><textarea name="user-message" id="user-message" class="user-message" required placeholder="message"></textarea></label>
+                <label for="submit-btn"><div class="buttons">
+                                         <button type="submit" id="submit-btn" class="submit-btn btn">Submit</button>
+                                       </div>
+                                    </label>
+            </div>
+        </form>
+    </div>
+ </div>
+
+  <script src="https://smtpjs.com/v3/smtp.js">
+  </script>
+  <script src="main.js"></script>
+</body>
+</html>
